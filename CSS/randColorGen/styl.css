@@ -1,0 +1,20 @@
+body>div{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+}
+h1{
+  margin-bottom:4rem;
+}
+button+div{
+    border:2px solid black;
+    height: 10rem;
+    width: 20rem;
+    background-color: burlywood;
+}
+button{
+   padding:0.25rem;
+   margin:0.15rem;
+}
+
